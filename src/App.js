@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Hello from "./components/Hello";
+import Footer from "./components/Footer";
 
+// React apps typically have a single App component at the very top that can reference other React components.
+// This component, `App`, is our main component that is importing `Hello` and rendering it in the return method.
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hello />
+      <Footer />
+    </>
   );
 }
 
