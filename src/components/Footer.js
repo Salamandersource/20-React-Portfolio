@@ -1,5 +1,5 @@
 function Footer() {
-  return <footer>2023 One Heart Development</footer>;
+  return <footer>2023 Salamander Source</footer>;
 }
 
 export default Footer;
