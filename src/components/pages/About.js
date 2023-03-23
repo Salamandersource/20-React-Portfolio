@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section id="about" className="bg-[#032A5D] mt-80 p-10">
-      <h1 className="text-[#CCDAEB] font-bold text-4xl py-5">About Me</h1>
+      <h1 className="text-[#3381df] font-bold text-4xl py-5">About Me</h1>
       <p className="text-[#FEFBEC] font-semibold text-2xl mx-7 py-5">My name is Matthew Salamander and I am a Full Stack Developer! I have a certificate from Northwestern in Software Engineering and a degree in Psychology from Metropolitan State University. My life intention is to strive everyday to learn and grow as a human being.</p>
 
       <p className="text-[#FEFBEC] font-semibold text-2xl mx-7 py-5">
