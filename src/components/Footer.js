@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="flex items-center justify-center py-5 space-x-5">
-        <a href="https://github.com/salamanderspeak" target="_blank">
+        <a href="https://github.com/salamanderspeakgit" target="_blank">
           <svg viewBox="0 0 98 96" width="98" height="96" xmlns="http://www.w3.org/2000/svg" onMouseOver={changeColor} onMouseLeave={returnToBlack}>
             <path
               fill-rule="evenodd"
@@ -26,7 +26,7 @@ const Footer = () => {
           </svg>
         </a>
         <a href="https://www.linkedin.com/in/matthewallenstudio/" target="_blank">
-          <img src={linkedInLogo} width="50" height="50"></img>
+          <img src={linkedInLogo} width="200" height="200"></img>
         </a>
       </footer>
     </div>
